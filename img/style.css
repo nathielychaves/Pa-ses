@@ -1,0 +1,63 @@
+
+.container{
+  display:grid;
+  grid-template-columns: 70px 70px 70px 70px;
+  grid-template-rows: 70px 70px 70px;
+  grid-template-columns: 70px 70px 70px;
+  grid-template-rows: 70px 70px 70px; 
+  align-items: center;
+  justify-content: center;
+}
+div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    height: 940px;
+  }
+  img {
+    width: 200px;
+    height: 200px;
+    border: 10px solid #adcac6;
+
+  }  
+  body {
+    font-family: "Sofia", sans-serif;
+  
+  }
+  p {
+    color: blue; /* Define a cor do texto como azul */
+    font-size: 18px;
+  }
+  p1 {
+    color: rgb(199, 51, 21); 
+    font-size: 18px;
+  }
+  p2 {
+    color: OrangeRed; 
+    font-size: 18px;
+  }
+  p3 {
+    color: rgb(155, 60, 155); 
+    font-size: 18px;
+  }
+  p4 {
+    color: rgb(77, 22, 150); 
+    font-size: 18px;
+  }
+  p7 {
+    color: rgb(184, 182, 74); 
+    font-size: 18px;
+  }
+  p8 {
+    color: rgb(190, 168, 168); 
+    font-size: 18px;
+  }
+    p9 {
+      color: rgb(99, 16, 16); 
+      font-size: 18px;
+      p10 {
+        color: rgb(47, 36, 145); 
+        font-size: 18px;
+  }
+}
